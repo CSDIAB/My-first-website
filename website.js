@@ -1,1 +1,1 @@
-alert 
+alert("Hello! I'm Chris Diab, I hope you enjoy exploring my website");

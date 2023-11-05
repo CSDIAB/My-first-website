@@ -20,18 +20,23 @@ body > footer {
     padding: 1rem;
     /*shouldnt this make it turn into a row*/
 }
-div {
-    display: flex;
-    flex:1;
-    padding:1rem;
-    justify-content: center;
-    align-items: center;
 
-@media (max-width: 320px) {
-    text-wrap: 80ch;
-    image: center;
+
+
+section > div > h1 {
+    display: flex;
+    padding:1rem;
+    justify-content:space-around;
+    text-align: center;
 }
 
-/*how can I make the CSS portion of my landing page better overall? START SLOW */
+
+
+article.about {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+/* CSS portion of my landing page better overall? START SLOW */
 /*media query to make it viewable on mobile devices! */
 /*my footer needs to be a row not a column why is my flex being weird? JCAI */
